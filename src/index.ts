@@ -157,8 +157,9 @@ with "--"), and invalid values for known keys, are treated as noops.
             default:
               if (Array.isArray(value)) {
                 el.setAttribute(key, value.join(' '))
+              } else {
+                throw new Error
               }
-              throw new Error
           }
       }
     }
