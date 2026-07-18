@@ -1,0 +1,27 @@
+{
+  "name": "@hornquist/makehtml",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [
+    "web",
+    "html",
+    "typescript"
+  ],
+  "author": "Hugo Hörnquist <hugo@lysator.liu.se>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/HugoNikanor/makehtml",
+  "scripts": {
+    "build": "tsc -b",
+    "watch": "tsc -watch"
+  },
+  "files": [
+    "dist/src/*.js",
+    "dist/src/*.d.ts"
+  ],
+  "exports": {
+    ".": "./dist/src/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

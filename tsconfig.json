@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "lib": ["es2023", "dom"],
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "module": "es2022",
+    "target": "es2021"
+  },
+  "include": ["src"]
+}
